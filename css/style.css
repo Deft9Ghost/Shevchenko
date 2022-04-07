@@ -1,0 +1,88 @@
+*{
+	margin: 2px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.main_description{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+	width: 500px;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;	
+}
+.item1, .item2, .item3, .item4{
+	border: none;
+	background: white;
+}
+.main{
+	height: 460px;
+	display: flex;
+	justify-content: space-evenly;
+	background: rgb(231,245,0);
+	background: linear-gradient(0deg, rgba(231,245,0,1) 0%, rgba(45,238,253,1) 100%);
+}
+.main_title{
+	color: #F4FA58;
+	font-size: 50px;
+}
+.main_text{
+	font-size: 25px;
+	height: 330px;
+}
+.main_further, .further_kobzar, .comment_kobzar, .further_Catherina, .comment_Catherina{
+	background: black;
+	border-radius: 2px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.container{
+	height: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container_long{
+	width: 40%;
+	height: 300px;
+}
+.long_title{
+	font-size: 18px;
+	background: #2deefd;
+}
+.container_kobzar{
+	width: 40%;
+	height: 300px;
+	order: -1;
+}
+.kobzar_title{
+	font-size: 23px;
+}
+.container_paintings{
+	width: 40%;
+	height: 250px;
+	background: #e7f500;
+}
+.Catherina_title{
+	font-size: 23px;
+	background: #e7f500;
+}
+.container_threeimg{
+	width: 40%;
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.footer{
+	height: 60px;
+	background: #8181F7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.UA{
+	text-decoration: none;
+	color: black;
+}
